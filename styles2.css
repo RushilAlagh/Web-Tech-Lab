@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: url(mcmadrid.jpg);
+    background-color: rgb(18, 123, 112);
+    background-size: 100% auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: 125%;
+}
+#header-container{
+    padding-bottom: 25px;
+}
+img{
+    width: 5.5rem;
+    height: 5.2rem;
+    border-radius: 50%;
+}
+.img{
+    position: fixed;
+}
+#title{
+    text-align: left;
+    padding: 0.8rem 0;
+    padding-left: 4.8rem;
+    font-size: 3rem;
+    color: rgb(120, 159, 203);
+    background: #04364A;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.questions{
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    background: rgb(178, 178, 178);
+    opacity: 0.5;
+    cursor: default;
+    border-radius: 1rem;
+}
+#question{
+    margin-bottom: 1rem;
+}
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem blue;
+    width: 15rem;
+    background: rgb(154, 170, 175);
+    border-radius: 1rem;
+}
+.option:hover{
+    color: white;
+}
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(46, 7, 118);
+}
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    margin-top: 1.5rem;
+    color: rgb(46, 7, 118);
+}
+.buttons{
+   margin-left: 150px;
+}
+button{
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    position: relative;
+    top: 50px;
+    border-radius: 1.5rem;
+    color: rgba(172, 165, 183, 0.98);
+    background: rgba(20, 3, 100, 0.82);
+}
+button:active{
+    background: lavender;
+    color: black;
+}
+#scoreboard{
+    width: 25rem;
+    height: 27rem;
+    background: rgba(189, 189, 196, 0.77);
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+}
+
+#answerBank{
+    width: 25rem;
+    height: 38rem;
+    background: rgba(189, 189, 196, 0.77);
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+}
+#score-title{
+    margin: 1rem 0;
+}
+#check-answer{
+    margin-top: 1rem;
+}
+
+#score-btn{
+    margin-top: 1rem;
+    /* margin-bottom: 5rem; */
+}
+
+#score{
+    font-size: 2.5rem;
+}
+#answerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+}
+#answers{
+    margin-top: 1rem;
+}
